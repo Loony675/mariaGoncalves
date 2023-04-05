@@ -8,7 +8,7 @@ export default function Footer() {
   const media = [
     {
       name: "Facebook",
-      url: "https://www.facebook.com/people/Sandrine-Herrault-peintre/100063483909932/",
+      url: "https://www.facebook.com/maria.goncalves.357",
     },
     {
       name: "Instagram",

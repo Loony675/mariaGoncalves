@@ -56,10 +56,10 @@ export default function Header() {
         className={styles.navContainer}
         style={{ visibility: modalOpen ? "visible" : "hidden" }}
       >
-        <a href="/#">Accueil</a>
-        <a href="me">Qui suis-je ?</a>
-        <a href="prestations">Prestations</a>
-        <a href="contactMe">Me contacter</a>
+        <a href="/">Accueil</a>
+        <a href="#me" onClick={()=> setModalOpen(false)}>Qui suis-je ?</a>
+        <a href="#prestations">Prestations</a>
+        <a href="#contactMe">Me contacter</a>
 
         <FaTimes
           className={styles.closeHamburger}
