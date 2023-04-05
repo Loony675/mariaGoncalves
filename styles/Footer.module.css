@@ -1,0 +1,13 @@
+.mainContainer {
+    display: flex;
+    color:#086788;
+    flex-direction: row;
+    background-color: #F1E4E8;
+    height: 10vh;
+    padding: 5px;
+    width: 100%;
+    position:relative;
+    bottom:0;
+    justify-content: space-evenly;
+    align-items: center;
+  }
