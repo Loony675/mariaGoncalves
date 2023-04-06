@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import QuiSuisJe from "@/components/QuiSuisJe";
 import Prestations from "@/components/Prestations";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -22,8 +23,9 @@ export default function Home() {
          <Prestations/>
         </section>
         <section id="contactMe">
-          <h1>Me contacter</h1>
+         <Contact/>
         </section>
+
       </div>
     </>
   );

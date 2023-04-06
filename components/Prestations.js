@@ -7,7 +7,7 @@ export default function Prestations() {
       <h1 className={styles.title}>Mes formations pour vous accompagner </h1>
       <div className={styles.container1}>
         {/* <img src="" className={styles.imgPortrait} alt="" /> */}
-        <div className={styles.bioContainer}>
+        <div className={styles.prestaContainer}>
           <p>
             Je suis certifiée au massage parents-bébé par l'Association
             Internationale de Massage pour Bébé (IAIM) depuis 2013.
@@ -36,10 +36,10 @@ export default function Prestations() {
             Je suis par ailleurs Praticienne Reiki, soin énergétique doux et
             méditatif qui permet de rééquilibrer le corps et apaiser le mental
             pour plus de mieux-être et de reconnexion à soi.{" "}
-            <p>
-              Ce soin s'adresse aux mamans mais aussi à toutes les personnes le
-              souhaitant.
-            </p>
+          </p>
+          <p>
+            Ce soin s'adresse aux mamans mais aussi à toutes les personnes le
+            souhaitant.
           </p>
         </div>
       </div>
