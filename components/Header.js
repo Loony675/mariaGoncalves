@@ -50,16 +50,26 @@ export default function Header() {
   );
 
   const mobileNav = (
-    <header className={scroll ? styles.mainContainerMobileScroll :styles.mainContainerMobile}>
+    <header
+      className={
+        scroll ? styles.mainContainerMobileScroll : styles.mainContainerMobile
+      }
+    >
       <h1>Maria Goncalves</h1>
       <nav
         className={styles.navContainer}
         style={{ visibility: modalOpen ? "visible" : "hidden" }}
       >
         <a href="/">Accueil</a>
-        <a href="#me" onClick={()=> setModalOpen(false)}>Qui suis-je ?</a>
-        <a href="#prestations">Prestations</a>
-        <a href="#contactMe">Me contacter</a>
+        <a href="#me" onClick={() => setModalOpen(false)}>
+          Qui suis-je ?
+        </a>
+        <a href="#prestations" onClick={() => setModalOpen(false)}>
+          Prestations
+        </a>
+        <a href="#contactMe" onClick={() => setModalOpen(false)}>
+          Me contacter
+        </a>
 
         <FaTimes
           className={styles.closeHamburger}
@@ -76,7 +86,9 @@ export default function Header() {
   );
 
   const navBar = (
-    <header className={scroll ? styles.mainContainerScroll :styles.mainContainer}>
+    <header
+      className={scroll ? styles.mainContainerScroll : styles.mainContainer}
+    >
       <h1>Maria Goncalves</h1>
       <nav>
         <a href="/">Accueil</a>

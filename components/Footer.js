@@ -12,7 +12,7 @@ export default function Footer() {
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/sandrineherrault/",
+      url: "https://www.instagram.com/",
     },
   ];
 

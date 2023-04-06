@@ -1,12 +1,12 @@
-import React from "react";
-import styles from "../styles/QuiSuisJe.module.css";
+import React from 'react'
+import styles from '../styles/Prestations.module.css'
 
-export default function QuiSuisJe() {
+export default function Prestations() {
   return (
     <div className={styles.mainContainer}>
-      <h1 className={styles.title}>Qui suis-je ?</h1>
+      <h1 className={styles.title}>Prestations</h1>
       <div className={styles.container1}>
-        <img src="/portrait-2.jpg" alt='photoBio' className={styles.imgPortrait} />
+        <img src="" className={styles.imgPortrait} alt='' />
         <div className={styles.bioContainer}>
           <p>
             Je suis Maria Goncalves, Auxiliaire de puériculture diplômée d'Etat.
@@ -27,5 +27,5 @@ export default function QuiSuisJe() {
         </div>
       </div>
     </div>
-  );
+  )
 }

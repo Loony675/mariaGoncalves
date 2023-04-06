@@ -1,6 +1,6 @@
 .mainContainerMobile {
   z-index: 99;
-  height: 10vh;
+  height: 8vh;
   color: #086788;
   display: flex;
   background-color: #f1e4e8;
@@ -14,7 +14,7 @@
 }
 .mainContainerMobileScroll {
   z-index: 99;
-  height: 10vh;
+  height: 8vh;
   color: #086788;
   display: flex;
   align-items: center;
@@ -24,6 +24,8 @@
   padding-right: 10px;
   transition-duration: 0.3s;
   justify-content: space-between;
+  background-color: rgba(255,255,255,0.8);
+
 }
 .mainContainerMobile nav {
   display: flex;
@@ -85,7 +87,8 @@
   justify-content: space-between;
 }
 .mainContainerScroll {
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
+  background-color: rgba(255,255,255,0.8);
   z-index: 99;
   height: 10vh;
   color: #086788;
