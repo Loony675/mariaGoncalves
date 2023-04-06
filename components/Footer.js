@@ -5,6 +5,9 @@ import { SocialIcon } from "react-social-icons";
 
 
 export default function Footer() {
+  const onSubmit = (data) =>
+  (window.location.href = `mailto:theo.loussot@gmail.com?subject=${data.subject}&body=Bonjour,  ${data.name}. ${data.message} (${data.email})`);
+
   const media = [
     {
       name: "Facebook",

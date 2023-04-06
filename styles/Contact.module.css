@@ -21,7 +21,14 @@
   border-radius: 5px;
 }
 .rdvContainer {
-    margin: 20px;
+  margin: 20px;
   text-align: justify;
   max-width: 800px;
+}
+.contact {
+    display:flex;
+    align-items: center; 
+}
+.contact:hover {
+    cursor:pointer;
 }

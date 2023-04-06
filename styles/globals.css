@@ -2,14 +2,14 @@
 * {
   font-family: "Cormorant Garamond", serif;
 }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   background: transparent;
   width: 15px;
   border-radius: 2;
 }
 body::-webkit-scrollbar-thumb {
   background: #086788;
-}
+} */
 body {
   padding: 0;
   margin: 0;
