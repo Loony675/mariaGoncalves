@@ -14,10 +14,11 @@
     align-items: center;
 }
 .imgPortrait{
-    object-fit: contain;
+    object-fit:cover;
     margin: 10px;
     height:250px;
-    border-radius: 5px;
+    width: 250px;
+    border-radius: 50%;
 }
 .bioContainer{
     margin: 20px;

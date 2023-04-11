@@ -56,6 +56,12 @@ export default function Header() {
       }
     >
       <h1>Maria Goncalves</h1>
+      <div className={styles.skillsMContainer}>
+        <div className={styles.skillM}>Séances massages parents-bébés</div>
+        <div className={styles.skillM}>Renforcer le lien</div>
+        <div className={styles.skillM}>Cercles mamans-bébés</div>
+        <div className={styles.skillM}>Soutien, partages, échanges</div>
+      </div>
       <nav
         className={styles.navContainer}
         style={{ visibility: modalOpen ? "visible" : "hidden" }}
@@ -90,6 +96,13 @@ export default function Header() {
       className={scroll ? styles.mainContainerScroll : styles.mainContainer}
     >
       <h1>Maria Goncalves</h1>
+      <div className={styles.skillsMContainer}>
+        <div className={styles.skillM}>Séances massages parents-bébés</div>
+        <div className={styles.skillM}>Renforcer le lien</div>
+        <div className={styles.skillM}>Cercles mamans-bébés</div>
+        <div className={styles.skillM}>Soutien, partages, échanges</div>
+      </div>
+
       <nav>
         <a href="/">Accueil</a>
         <a href="#me">Qui suis-je ?</a>
