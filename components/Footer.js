@@ -2,8 +2,8 @@ import React from "react";
 import styles from "../styles/Footer.module.css";
 import { SocialIcon } from "react-social-icons";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
-import {  BsGeoAltFill } from "react-icons/bs";
-
+import { BsGeoAltFill } from "react-icons/bs";
+import { IconContext } from "react-icons";
 export default function Footer() {
   const onSubmit = (data) =>
     (window.location.href = `mailto:theo.loussot@gmail.com?subject=${data.subject}&body=Bonjour,  ${data.name}. ${data.message} (${data.email})`);
@@ -45,18 +45,22 @@ export default function Footer() {
       </div>
       <div className={styles.coordsContainer}>
         <div className={styles.telEmailSpot}>
-          <AiOutlinePhone style={{ marginRight: "5px", fontSize: "30px" }} />
+          <IconContext.Provider value={{ className: styles.icons }}>
+            <AiOutlinePhone />
+          </IconContext.Provider>
           <div>06 47 88 95 87</div>
         </div>
         <div className={styles.telEmailSpot}>
-          
-          <BsGeoAltFill style={{ marginRight: "5px", fontSize: "30px" }} />
+          <IconContext.Provider value={{ className: styles.icons }}>
+            <BsGeoAltFill  />
+          </IconContext.Provider>
           Saint-Fargeau-Ponthierry
         </div>
 
-        <div className={styles.telEmailSpot}>
-          
-          <AiOutlineMail style={{ marginRight: "5px", fontSize: "30px" }} />
+        <div className={styles.telEmailSpot} onClick={() => onSubmit()}>
+          <IconContext.Provider value={{ className: styles.icons }}>
+            <AiOutlineMail/>
+          </IconContext.Provider>
           goncalvesmaria1@live.fr
         </div>
       </div>
