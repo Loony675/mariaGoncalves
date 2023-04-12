@@ -24,8 +24,7 @@
   padding-right: 10px;
   transition-duration: 0.3s;
   justify-content: space-between;
-  background-color: rgba(255,255,255,0.8);
-
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .mainContainerMobile nav {
   display: flex;
@@ -38,15 +37,13 @@
   height: 100vh;
   width: 100%;
   /* backdrop-filter: blur(10px); */
-  background-color: rgba(255,255,255,0.8);
-
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .mainContainerMobile nav a {
   margin: 10px;
   font-size: 30px;
 
   font-weight: 700;
-
 }
 
 .mainContainerMobileScroll nav {
@@ -60,10 +57,10 @@
   height: 100vh;
   width: 100%;
   /* backdrop-filter: blur(10px); */
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .mainContainerMobileScroll nav a {
-  margin:10px;
+  margin: 10px;
   font-size: 30px;
   font-weight: 700;
 }
@@ -88,7 +85,7 @@
 }
 .mainContainerScroll {
   /* backdrop-filter: blur(10px); */
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   z-index: 99;
   height: 10vh;
   color: #086788;
@@ -102,15 +99,26 @@
   justify-content: space-between;
 }
 .mainContainer nav a {
-  margin-left: 1.5rem;
+  margin-left: 0.5rem;
 }
 .mainContainerScroll nav a {
-  margin-left: 1.5rem;
+  margin-left: 0.5rem;
 }
-.skillsMContainer{
+.skillsMContainer {
 }
-.skillM{
+.skillM {
   font-size: 12px;
+}
+.skill{
+  font-size: 12px;
+}
+@media screen and (min-width: 1000px) {
+  .skill {
+    font-size: 20px;
+  }
+  .mainContainer nav a {
+    margin-left: 1.5rem;
+  }
 }
 /*
 .leftContainer {

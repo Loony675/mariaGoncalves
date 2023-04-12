@@ -40,3 +40,6 @@
     border-radius: 50%;
     object-fit: cover;
   }
+  .coordsContainer{
+    border:solid red 1px;
+  }

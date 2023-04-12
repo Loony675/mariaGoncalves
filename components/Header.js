@@ -55,7 +55,7 @@ export default function Header() {
         scroll ? styles.mainContainerMobileScroll : styles.mainContainerMobile
       }
     >
-      <h1>Maria Goncalves</h1>
+      <h4>Maria Goncalves</h4>
       <div className={styles.skillsMContainer}>
         <div className={styles.skillM}>Séances massages parents-bébés</div>
         <div className={styles.skillM}>Renforcer le lien</div>
@@ -95,12 +95,12 @@ export default function Header() {
     <header
       className={scroll ? styles.mainContainerScroll : styles.mainContainer}
     >
-      <h1>Maria Goncalves</h1>
-      <div className={styles.skillsMContainer}>
-        <div className={styles.skillM}>Séances massages parents-bébés</div>
-        <div className={styles.skillM}>Renforcer le lien</div>
-        <div className={styles.skillM}>Cercles mamans-bébés</div>
-        <div className={styles.skillM}>Soutien, partages, échanges</div>
+      <h1 className={styles.title}>Maria Goncalves</h1>
+      <div className={styles.skillsContainer}>
+        <div className={styles.skill}>Séances massages parents-bébés</div>
+        <div className={styles.skill}>Renforcer le lien</div>
+        <div className={styles.skill}>Cercles mamans-bébés</div>
+        <div className={styles.skill}>Soutien, partages, échanges</div>
       </div>
 
       <nav>
