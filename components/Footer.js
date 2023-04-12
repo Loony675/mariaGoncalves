@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
 import { SocialIcon } from "react-social-icons";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
+import {  BsGeoAltFill } from "react-icons/bs";
 
 export default function Footer() {
   const onSubmit = (data) =>
@@ -35,16 +37,28 @@ export default function Footer() {
     <div className={styles.mainContainer}>
       <div className={styles.skillsContainer}>
         <img src="/portrait-2.jpg" className={styles.imgPortrait} />
-        <div style={{marginLeft:'5px', lineHeight:'3px'}}>
+        <div style={{ marginLeft: "5px", lineHeight: "3px" }}>
           <p className={styles.skill}>Auxiliaire de puériculture D.E</p>
           <p className={styles.skill}>Certifiée en massage pour bébé</p>
           <p className={styles.skill}>Facilitatrice de cercles</p>
         </div>
       </div>
       <div className={styles.coordsContainer}>
-        <div>Mobile</div>
-        <div>Lieu</div>
-        <div>Email</div>
+        <div className={styles.telEmailSpot}>
+          <AiOutlinePhone style={{ marginRight: "5px", fontSize: "30px" }} />
+          <div>06 47 88 95 87</div>
+        </div>
+        <div className={styles.telEmailSpot}>
+          
+          <BsGeoAltFill style={{ marginRight: "5px", fontSize: "30px" }} />
+          Saint-Fargeau-Ponthierry
+        </div>
+
+        <div className={styles.telEmailSpot}>
+          
+          <AiOutlineMail style={{ marginRight: "5px", fontSize: "30px" }} />
+          goncalvesmaria1@live.fr
+        </div>
       </div>
       <div>{mapMedia}</div>
     </div>
