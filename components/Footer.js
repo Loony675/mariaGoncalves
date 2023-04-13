@@ -6,7 +6,7 @@ import { BsGeoAltFill } from "react-icons/bs";
 import { IconContext } from "react-icons";
 export default function Footer() {
   const onSubmit = (data) =>
-    (window.location.href = `mailto:theo.loussot@gmail.com?subject=${data.subject}&body=Bonjour,  ${data.name}. ${data.message} (${data.email})`);
+    (window.location.href = `mailto:goncalvesmaria1@live.fr?subject=Prise de contact`);
 
   const media = [
     {
