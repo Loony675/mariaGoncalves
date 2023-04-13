@@ -14,15 +14,24 @@
     flex-direction: column;
     align-items: center;
 }
-.imgPortrait{
-    object-fit: contain;
-    margin: 10px;
-    height:250px;
-    border-radius: 5px;
-}
 .prestaContainer{
     margin: 20px;
     text-align: justify;
     max-width: 800px;
-
+}
+.massagesContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.citations {
+    font-style: italic;
+}
+.imgHands{
+    object-fit:cover;
+    margin: 10px;
+    height:250px;
+    width: 250px;
+    border-radius: 50%;
 }

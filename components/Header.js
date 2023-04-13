@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/Header.module.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import Link from "next/link";
 export default function Header() {
   const [isMobile, setIsMobile] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
@@ -57,7 +57,14 @@ export default function Header() {
     >
       <h4>Maria Goncalves</h4>
       <div className={styles.skillsMContainer}>
-        <div className={styles.skillM}>Séances massages parents-bébés</div>
+        <a
+          href="#prestations"
+          onClick={() => setModalOpen(false)}
+          className={styles.skillM}
+        >
+          Séances massages parents-bébés
+        </a>
+
         <div className={styles.skillM}>Renforcer le lien</div>
         <div className={styles.skillM}>Cercles mamans-bébés</div>
         <div className={styles.skillM}>Soutien, partages, échanges</div>

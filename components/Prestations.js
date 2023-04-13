@@ -41,6 +41,29 @@ export default function Prestations() {
             Ce soin s'adresse aux mamans mais aussi à toutes les personnes le
             souhaitant.
           </p>
+
+          <div className={styles.massagesContainer}>
+          <h3>Massage parents-bébés</h3>
+          <p className={styles.citations}>
+            "Le toucher est le premier sens se développant in utero. Il a une
+            place vitale pendant l'enfance et tout au long de la vie. Le toucher
+            est fondamental pour renforcer le lien entre la maman, le papa ou la
+            personne référente"
+          </p>
+          <img src="/hands.jpg" className={styles.imgHands}/>
+          <p>
+            Venez apprendre à masser votre bébé dans une atmosphère chaleureuse
+            et bienveillante, en respectant votre rythme et celui de votre
+            enfant.
+          </p>
+          <p className={styles.citations}>
+            " Le massage est un merveilleux moment de partage et d'affection
+            avec votre bébé, c'est un moment privilégié en face à face, qui
+            permet au bébé de s'épanouir pleinement en étant sécurisé, valorisé,
+            aimé et écouté."
+          </p>
+          Art traditionnel venant d'Inde
+          </div>
         </div>
       </div>
     </div>

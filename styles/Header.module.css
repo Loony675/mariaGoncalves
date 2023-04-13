@@ -109,8 +109,10 @@
 }
 .skillM {
   font-size: 12px;
+  text-decoration: none;
+  color: #086788;
 }
-.skill{
+.skill {
   font-size: 12px;
 }
 @media screen and (min-width: 1000px) {
