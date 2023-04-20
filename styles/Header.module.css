@@ -122,6 +122,9 @@
   .mainContainer nav a {
     margin-left: 1.5rem;
   }
+  .mainContainerScroll nav a {
+    margin-left: 1.5rem;
+  }
   .skillsContainer {
     line-height: 18px;
   }
