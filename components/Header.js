@@ -104,7 +104,9 @@ export default function Header() {
     >
       <h2 className={styles.title}>Maria Goncalves</h2>
       <div className={styles.skillsContainer}>
-        <div className={styles.skill}>Séances massages parents-bébés</div>
+        <a className={styles.skill} href="#prestations">
+          Séances massages parents-bébés
+        </a>
         <div className={styles.skill}>Renforcer le lien</div>
         <div className={styles.skill}>Cercles mamans-bébés</div>
         <div className={styles.skill}>Soutien, partages, échanges</div>

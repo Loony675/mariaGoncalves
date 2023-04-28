@@ -28,6 +28,7 @@ export default function Footer() {
           backgroundColor: "transparent",
           height: 30,
           width: 30,
+          marginLeft:'5px'
         }}
         className={styles.buttonHeader}
       />
