@@ -9,6 +9,8 @@
   font-size: 20px;
   margin-top: 80px;
   color: #086788;
+  transition-duration: 0.3s;
+
 }
 .presta {
   display: flex;
@@ -23,6 +25,7 @@
     color:black;
     text-align: center;
     margin:50px;
+    transition-duration: 0.3s;
 }
 .citations {
     font-style: italic;

@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "../styles/Prestations.module.css";
-import { BsCircleFill, BsCircle } from "react-icons/bs";
+import {
+  BsFillArrowDownCircleFill,
+  BsFillArrowUpCircleFill,
+} from "react-icons/bs";
 import { useState } from "react";
 
 export default function Prestations() {
@@ -34,9 +37,9 @@ export default function Prestations() {
       <div className={styles.prestaContainer}>
         <div className={styles.presta} onClick={() => presta1()}>
           {clickPresta1 ? (
-            <BsCircle style={{ marginRight: "5px" }} />
+            <BsFillArrowUpCircleFill style={{ marginRight: "5px" }} />
           ) : (
-            <BsCircleFill style={{ marginRight: "5px" }} />
+            <BsFillArrowDownCircleFill style={{ marginRight: "5px" }} />
           )}
           <div>Séances massages parents-bébés</div>
         </div>
@@ -67,38 +70,37 @@ export default function Prestations() {
 
         <div className={styles.presta} onClick={() => presta2()}>
           {clickPresta2 ? (
-            <BsCircle style={{ marginRight: "5px" }} />
-          ) : (
-            <BsCircleFill style={{ marginRight: "5px" }} />
-          )}
+            <BsFillArrowUpCircleFill style={{ marginRight: "5px" }} />
+            ) : (
+              <BsFillArrowDownCircleFill style={{ marginRight: "5px" }} />
+            )}
           <div>Cercles mamans-bébés</div>
         </div>
         <div className={styles.presta} onClick={() => presta3()}>
           {clickPresta3 ? (
-            <BsCircle style={{ marginRight: "5px" }} />
-          ) : (
-            <BsCircleFill style={{ marginRight: "5px" }} />
-          )}
+            <BsFillArrowUpCircleFill style={{ marginRight: "5px" }} />
+            ) : (
+              <BsFillArrowDownCircleFill style={{ marginRight: "5px" }} />
+            )}
           <div>Séances Reiki</div>
         </div>
         {clickPresta3 && (
-            <div className={styles.massagesContainer}>
-              <h3>Le reiki</h3>Le reiki est une méthode de soin japonaise appartenant à
-              l'approche énergétique. En japonais Rei veut dire universel et
-              inclut la matière et l'esprit. Ki renvoie à l'energie vitale qui
-              circule en nous. Par imposition des mains, je vous permets la mise
-              en contact de l'énergie universelle et votre propre force vitale
-              dans le but d'éveiller un processus dynamique de guérison. Je vous
-              accompagne dans une profonde relaxation et dans un véritable
-              voyage intérieur, en contact avec la dimension spirituelle de
-              votre Être. Le soin reiki apporte au receveur calme et paix
-              intérieure, apaise l'activité mentale, vitalise corps et esprit,
-              rééquilibre la balance énergétique du corps. C'est un véritable
-              moment méditatif et de retour à soi. La séance se pratique habillé
-              sur table de massage. Durée du soin 1h30/60€
-            </div>
-          )}
-
+          <div className={styles.massagesContainer}>
+            <h3>Le reiki</h3>Le reiki est une méthode de soin japonaise
+            appartenant à l'approche énergétique. En japonais Rei veut dire
+            universel et inclut la matière et l'esprit. Ki renvoie à l'energie
+            vitale qui circule en nous. Par imposition des mains, je vous
+            permets la mise en contact de l'énergie universelle et votre propre
+            force vitale dans le but d'éveiller un processus dynamique de
+            guérison. Je vous accompagne dans une profonde relaxation et dans un
+            véritable voyage intérieur, en contact avec la dimension spirituelle
+            de votre Être. Le soin reiki apporte au receveur calme et paix
+            intérieure, apaise l'activité mentale, vitalise corps et esprit,
+            rééquilibre la balance énergétique du corps. C'est un véritable
+            moment méditatif et de retour à soi. La séance se pratique habillé
+            sur table de massage. Durée du soin 1h30/60€
+          </div>
+        )}
       </div>
     </div>
   );
