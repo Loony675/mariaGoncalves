@@ -17,7 +17,7 @@ export default function Header() {
   };
   useEffect(() => {
     const changeBackground = () => {
-      if (window.scrollY >= 80) {
+      if (window.scrollY >= 30) {
         setScroll(true);
       } else {
         setScroll(false);
