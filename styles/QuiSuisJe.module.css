@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .title{
     font-weight: 700;
@@ -13,13 +14,7 @@
     flex-direction: column;
     align-items: center;
 }
-.imgPortrait{
-    object-fit:cover;
-    margin: 10px;
-    height:250px;
-    width: 250px;
-    border-radius: 50%;
-}
+
 .bioContainer{
     margin: 20px;
     text-align: justify;

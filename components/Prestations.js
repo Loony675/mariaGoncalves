@@ -71,17 +71,17 @@ export default function Prestations() {
         <div className={styles.presta} onClick={() => presta2()}>
           {clickPresta2 ? (
             <BsFillArrowUpCircleFill style={{ marginRight: "5px" }} />
-            ) : (
-              <BsFillArrowDownCircleFill style={{ marginRight: "5px" }} />
-            )}
+          ) : (
+            <BsFillArrowDownCircleFill style={{ marginRight: "5px" }} />
+          )}
           <div>Cercles mamans-bébés</div>
         </div>
         <div className={styles.presta} onClick={() => presta3()}>
           {clickPresta3 ? (
             <BsFillArrowUpCircleFill style={{ marginRight: "5px" }} />
-            ) : (
-              <BsFillArrowDownCircleFill style={{ marginRight: "5px" }} />
-            )}
+          ) : (
+            <BsFillArrowDownCircleFill style={{ marginRight: "5px" }} />
+          )}
           <div>Séances Reiki</div>
         </div>
         {clickPresta3 && (
@@ -101,6 +101,20 @@ export default function Prestations() {
             sur table de massage. Durée du soin 1h30/60€
           </div>
         )}
+      </div>
+      <div>
+        {" "}
+        <img
+          src="/portrait-2.jpg"
+          alt="photoBio"
+          className={styles.imgPortrait}
+        />
+      </div>
+      <div className={styles.skills}>
+        <div>Auxiliaire de puériculture DE</div>
+        <div>Certifiée en massage pour bébés</div>
+        <div>Facilitatrice de cerlces mamans-bébés</div>
+        <div>Praticienne Reiki (soin énergétique)</div>
       </div>
     </div>
   );

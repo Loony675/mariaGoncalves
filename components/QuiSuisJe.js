@@ -6,7 +6,6 @@ export default function QuiSuisJe() {
     <div className={styles.mainContainer}>
       <h1 className={styles.title}>Qui suis-je ?</h1>
       <div className={styles.container1}>
-        <img src="/portrait-2.jpg" alt='photoBio' className={styles.imgPortrait} />
         <div className={styles.bioContainer}>
           <p>
             Je suis Maria Goncalves, Auxiliaire de puériculture diplômée d'Etat.

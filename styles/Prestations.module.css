@@ -5,35 +5,66 @@
   justify-content: center;
 }
 .prestaContainer {
+  display: flex;
+  flex-direction: column;
   font-weight: 700;
   font-size: 20px;
   margin-top: 80px;
+  width: 100%;
   color: #086788;
   transition-duration: 0.3s;
-
 }
 .presta {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.massagesContainer{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:black;
-    text-align: center;
-    margin:50px;
-    transition-duration: 0.3s;
+.presta:hover {
+  cursor: pointer;
+}
+.massagesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  margin: 50px;
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .citations {
-    font-style: italic;
+  font-style: italic;
 }
-.imgHands{
+.imgHands {
+  object-fit: cover;
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.imgPortrait{
     object-fit:cover;
     margin: 10px;
     height:250px;
     width: 250px;
     border-radius: 50%;
+}
+.skills {
+    display:flex;
+    flex-direction: column ;
+    align-items: center;
+    font-weight: 500;
+    color:#086788
 }
