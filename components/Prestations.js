@@ -113,7 +113,7 @@ export default function Prestations() {
       <div className={styles.skills}>
         <div>Auxiliaire de puériculture DE</div>
         <div>Certifiée en massage pour bébés</div>
-        <div>Facilitatrice de cerlces mamans-bébés</div>
+        <div>Facilitatrice de cercles mamans-bébés</div>
         <div>Praticienne Reiki (soin énergétique)</div>
       </div>
     </div>
