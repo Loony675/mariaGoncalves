@@ -45,7 +45,7 @@ export default function Prestations() {
         </div>
         {clickPresta1 && (
           <div className={styles.massagesContainer}>
-            <h3>Massage parents-bébés</h3>
+            <h2>Massage parents-bébés</h2>
             <p className={styles.citations}>
               "Le toucher est le premier sens se développant in utero. Il a une
               place vitale pendant l'enfance et tout au long de la vie. Le
@@ -66,7 +66,7 @@ export default function Prestations() {
             </p>
             <p>Art traditionnel venant d'Inde</p>
             <p>
-              Transmission d'un Art traditionnel venant d'Inde ☀️Le massage
+              Transmission d'un art traditionnel venant d'Inde ☀️Le massage
               Shantala ☀️
             </p>
             <p>
@@ -78,7 +78,7 @@ export default function Prestations() {
               les mouvements de massage et tisser les liens les plus précieux
               avec votre bébé ✨
             </p>
-            <p>Tarifs:</p>
+            <h3>Tarifs:</h3>
             <p>
               Au cabinet:<br></br> En individuel 1h30 // 50 €<br></br> En
               collectif 2h // 40 €<br></br>
