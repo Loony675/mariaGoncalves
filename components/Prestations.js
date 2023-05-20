@@ -1,70 +1,104 @@
 import React from "react";
 import styles from "../styles/Prestations.module.css";
+import { BsCircleFill, BsCircle } from "react-icons/bs";
+import { useState } from "react";
 
 export default function Prestations() {
+  const [clickPresta1, setPresta1] = useState(false);
+  const [clickPresta2, setPresta2] = useState(false);
+  const [clickPresta3, setPresta3] = useState(false);
+
+  const presta1 = () => {
+    if (clickPresta1) {
+      setPresta1(false);
+    } else {
+      setPresta1(true);
+    }
+  };
+  const presta2 = () => {
+    if (clickPresta2) {
+      setPresta2(false);
+    } else {
+      setPresta2(true);
+    }
+  };
+  const presta3 = () => {
+    if (clickPresta3) {
+      setPresta3(false);
+    } else {
+      setPresta3(true);
+    }
+  };
   return (
     <div className={styles.mainContainer}>
-      <h1 className={styles.title}>Mes formations pour vous accompagner </h1>
-      <div className={styles.container1}>
-        {/* <img src="" className={styles.imgPortrait} alt="" /> */}
-        <div className={styles.prestaContainer}>
-          <p>
-            Je suis certifiée au massage parents-bébé par l'Association
-            Internationale de Massage pour Bébé (IAIM) depuis 2013.
-          </p>
-          <p>
-            Le massage des bébés est un art traditionnel indien qui contribue à
-            relaxer, soulager, stimuler et renforcer le lien avec son
-            tout-petit.
-          </p>
-          <p>
-            Ma curiosité et un intérêt de cœur m'ont plongé dans cet univers
-            maman-bébé autour du maternage proximal, l'éducation positive et
-            bienveillante, la communication non-violente, tous les moyens
-            permettant d'accompagner la maman et son tout-petit avec douceur.
-          </p>
-          <p>
-            Pour poursuivre dans cet univers doux et bienveillant, je suis
-            Facilitatrice de cercles mamans-bébés depuis 2021.
-          </p>
-          <p>
-            Ces cercles sont un temps sacré dédié à la maman et à son tout-petit
-            pour la création du lien avec son bébé mais aussi avec les autres
-            mamans participantes.
-          </p>
-          <p>
-            Je suis par ailleurs Praticienne Reiki, soin énergétique doux et
-            méditatif qui permet de rééquilibrer le corps et apaiser le mental
-            pour plus de mieux-être et de reconnexion à soi.{" "}
-          </p>
-          <p>
-            Ce soin s'adresse aux mamans mais aussi à toutes les personnes le
-            souhaitant.
-          </p>
-
-          <div className={styles.massagesContainer}>
-          <h3>Massage parents-bébés</h3>
-          <p className={styles.citations}>
-            "Le toucher est le premier sens se développant in utero. Il a une
-            place vitale pendant l'enfance et tout au long de la vie. Le toucher
-            est fondamental pour renforcer le lien entre la maman, le papa ou la
-            personne référente"
-          </p>
-          <img src="/hands.jpg" className={styles.imgHands}/>
-          <p>
-            Venez apprendre à masser votre bébé dans une atmosphère chaleureuse
-            et bienveillante, en respectant votre rythme et celui de votre
-            enfant.
-          </p>
-          <p className={styles.citations}>
-            " Le massage est un merveilleux moment de partage et d'affection
-            avec votre bébé, c'est un moment privilégié en face à face, qui
-            permet au bébé de s'épanouir pleinement en étant sécurisé, valorisé,
-            aimé et écouté."
-          </p>
-          Art traditionnel venant d'Inde
-          </div>
+      <div className={styles.prestaContainer}>
+        <div className={styles.presta} onClick={() => presta1()}>
+          {clickPresta1 ? (
+            <BsCircle style={{ marginRight: "5px" }} />
+          ) : (
+            <BsCircleFill style={{ marginRight: "5px" }} />
+          )}
+          <div>Séances massages parents-bébés</div>
         </div>
+        {clickPresta1 && (
+          <div className={styles.massagesContainer}>
+            <h3>Massage parents-bébés</h3>
+            <p className={styles.citations}>
+              "Le toucher est le premier sens se développant in utero. Il a une
+              place vitale pendant l'enfance et tout au long de la vie. Le
+              toucher est fondamental pour renforcer le lien entre la maman, le
+              papa ou la personne référente"
+            </p>
+            <img src="/hands.jpg" className={styles.imgHands} />
+            <p>
+              Venez apprendre à masser votre bébé dans une atmosphère
+              chaleureuse et bienveillante, en respectant votre rythme et celui
+              de votre enfant.
+            </p>
+            <p className={styles.citations}>
+              " Le massage est un merveilleux moment de partage et d'affection
+              avec votre bébé, c'est un moment privilégié en face à face, qui
+              permet au bébé de s'épanouir pleinement en étant sécurisé,
+              valorisé, aimé et écouté."
+            </p>
+            Art traditionnel venant d'Inde
+          </div>
+        )}
+
+        <div className={styles.presta} onClick={() => presta2()}>
+          {clickPresta2 ? (
+            <BsCircle style={{ marginRight: "5px" }} />
+          ) : (
+            <BsCircleFill style={{ marginRight: "5px" }} />
+          )}
+          <div>Cercles mamans-bébés</div>
+        </div>
+        <div className={styles.presta} onClick={() => presta3()}>
+          {clickPresta3 ? (
+            <BsCircle style={{ marginRight: "5px" }} />
+          ) : (
+            <BsCircleFill style={{ marginRight: "5px" }} />
+          )}
+          <div>Séances Reiki</div>
+        </div>
+        {clickPresta3 && (
+            <div className={styles.massagesContainer}>
+              <h3>Le reiki</h3>Le reiki est une méthode de soin japonaise appartenant à
+              l'approche énergétique. En japonais Rei veut dire universel et
+              inclut la matière et l'esprit. Ki renvoie à l'energie vitale qui
+              circule en nous. Par imposition des mains, je vous permets la mise
+              en contact de l'énergie universelle et votre propre force vitale
+              dans le but d'éveiller un processus dynamique de guérison. Je vous
+              accompagne dans une profonde relaxation et dans un véritable
+              voyage intérieur, en contact avec la dimension spirituelle de
+              votre Être. Le soin reiki apporte au receveur calme et paix
+              intérieure, apaise l'activité mentale, vitalise corps et esprit,
+              rééquilibre la balance énergétique du corps. C'est un véritable
+              moment méditatif et de retour à soi. La séance se pratique habillé
+              sur table de massage. Durée du soin 1h30/60€
+            </div>
+          )}
+
       </div>
     </div>
   );

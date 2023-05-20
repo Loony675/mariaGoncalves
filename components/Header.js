@@ -57,7 +57,7 @@ export default function Header() {
     >
       <h4>Maria Goncalves</h4>
       <div className={styles.skillsMContainer}>
-        <a
+        {/* <a
           href="#prestations"
           onClick={() => setModalOpen(false)}
           className={styles.skillM}
@@ -67,7 +67,7 @@ export default function Header() {
 
         <div className={styles.skillM}>Renforcer le lien</div>
         <div className={styles.skillM}>Cercles mamans-bébés</div>
-        <div className={styles.skillM}>Soutien, partages, échanges</div>
+        <div className={styles.skillM}>Soutien, partages, échanges</div> */}
       </div>
       <nav
         className={styles.navContainer}

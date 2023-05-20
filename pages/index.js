@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import QuiSuisJe from "@/components/QuiSuisJe";
 import Prestations from "@/components/Prestations";
+import Formations from "@/components/Formations";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -16,11 +17,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.mainContainer}>
+        <section>
+          <Prestations/>
+        </section>
         <section id="me">
           <QuiSuisJe />
         </section>
         <section id="prestations">
-         <Prestations/>
+         <Formations/>
         </section>
         <section id="contactMe">
          <Contact/>

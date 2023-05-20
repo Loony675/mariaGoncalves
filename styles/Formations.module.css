@@ -1,0 +1,22 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 55px;
+}
+.container1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prestaContainer{
+    margin: 20px;
+    text-align: justify;
+    max-width: 800px;
+}
+

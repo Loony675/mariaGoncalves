@@ -1,29 +1,28 @@
 .mainContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.title{
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    margin-top: 55px;
+.prestaContainer {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 80px;
+  color: #086788;
 }
-.container1{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.prestaContainer{
-    margin: 20px;
-    text-align: justify;
-    max-width: 800px;
+.presta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .massagesContainer{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:black;
+    text-align: center;
+    margin:50px;
 }
 .citations {
     font-style: italic;
