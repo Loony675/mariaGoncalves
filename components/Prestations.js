@@ -64,7 +64,30 @@ export default function Prestations() {
               permet au bébé de s'épanouir pleinement en étant sécurisé,
               valorisé, aimé et écouté."
             </p>
-            Art traditionnel venant d'Inde
+            <p>Art traditionnel venant d'Inde</p>
+            <p>
+              Transmission d'un Art traditionnel venant d'Inde ☀️Le massage
+              Shantala ☀️
+            </p>
+            <p>
+              S'adressant aux parents accompagnés de leur bébé de 1 à 12 mois
+            </p>
+            <p>
+              Les séances massage bébé se déroulent sur 4 semaines consécutives,
+              rythme adapté à votre bébé et à ses parents afin d'intégrer tous
+              les mouvements de massage et tisser les liens les plus précieux
+              avec votre bébé ✨
+            </p>
+            <p>Tarifs:</p>
+            <p>
+              Au cabinet:<br></br> En individuel 1h30 // 50 €<br></br> En
+              collectif 2h // 40 €<br></br>
+              <p>
+                Frais de déplacement à domicile autour de Ponthierry : 10€ // 20
+                km
+              </p>
+            </p>
+            <img src='setup.webp' className={styles.imgSetup}/>
           </div>
         )}
 
@@ -119,8 +142,7 @@ export default function Prestations() {
           </div>
         )}
       </div>
-      <div style={{marginTop:'20px'}}> 
-        
+      <div style={{ marginTop: "20px" }}>
         <img
           src="/portrait-2.jpg"
           alt="photoBio"
