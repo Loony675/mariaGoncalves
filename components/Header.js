@@ -103,21 +103,21 @@ export default function Header() {
       className={scroll ? styles.mainContainerScroll : styles.mainContainer}
     >
       <h2 className={styles.title}>Maria Goncalves</h2>
-      <div className={styles.skillsContainer}>
+      {/* <div className={styles.skillsContainer}>
         <a className={styles.skill} href="#prestations">
           Séances massages parents-bébés
         </a>
         <div className={styles.skill}>Renforcer le lien</div>
         <div className={styles.skill}>Cercles mamans-bébés</div>
         <div className={styles.skill}>Soutien, partages, échanges</div>
-      </div>
+      </div> */}
 
-      <nav>
+      {/* <nav>
         <a href="/">Accueil</a>
         <a href="#me">Qui suis-je ?</a>
         <a href="#prestations">Prestations</a>
         <a href="#contactMe">Me contacter</a>
-      </nav>
+      </nav> */}
     </header>
   );
 

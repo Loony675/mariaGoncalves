@@ -15,7 +15,7 @@ export default function Footer() {
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/maria_douceurdulien/",
     },
   ];
 

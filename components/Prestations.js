@@ -86,24 +86,41 @@ export default function Prestations() {
         </div>
         {clickPresta3 && (
           <div className={styles.massagesContainer}>
-            <h3>Le reiki</h3>Le reiki est une méthode de soin japonaise
-            appartenant à l'approche énergétique. En japonais Rei veut dire
-            universel et inclut la matière et l'esprit. Ki renvoie à l'energie
-            vitale qui circule en nous. Par imposition des mains, je vous
-            permets la mise en contact de l'énergie universelle et votre propre
-            force vitale dans le but d'éveiller un processus dynamique de
-            guérison. Je vous accompagne dans une profonde relaxation et dans un
-            véritable voyage intérieur, en contact avec la dimension spirituelle
-            de votre Être. Le soin reiki apporte au receveur calme et paix
-            intérieure, apaise l'activité mentale, vitalise corps et esprit,
-            rééquilibre la balance énergétique du corps. C'est un véritable
-            moment méditatif et de retour à soi. La séance se pratique habillé
-            sur table de massage. Durée du soin 1h30/60€
+            <h3>Le reiki</h3>
+            <img src="/reiki.jpg" className={styles.imgReiki} />
+
+            <p>
+              Le reiki est une méthode de soin japonaise appartenant à
+              l'approche énergétique. <br></br>En japonais, Rei veut dire
+              universel et inclut la matière et l'esprit.<br></br> Ki renvoie à
+              l'energie vitale qui circule en nous.
+            </p>
+            <p>
+              Par imposition des mains, je vous permets la mise en contact de
+              l'énergie universelle et votre propre force vitale dans le but
+              d'éveiller un processus dynamique de guérison.
+            </p>
+            <p>
+              Je vous accompagne dans une profonde relaxation et dans un
+              véritable voyage intérieur, en contact avec la dimension
+              spirituelle de votre Être.
+            </p>
+            <p>
+              Le soin reiki apporte au receveur calme et paix intérieure, apaise
+              l'activité mentale, vitalise corps et esprit, rééquilibre la
+              balance énergétique du corps.
+              <br></br>
+              C'est un véritable moment méditatif et de retour à soi.
+            </p>
+            <p>
+              La séance se pratique habillé sur table de massage.<br></br>Durée
+              du soin 1h30/60€
+            </p>
           </div>
         )}
       </div>
-      <div>
-        {" "}
+      <div style={{marginTop:'20px'}}> 
+        
         <img
           src="/portrait-2.jpg"
           alt="photoBio"
