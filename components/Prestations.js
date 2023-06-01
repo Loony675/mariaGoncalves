@@ -43,6 +43,11 @@ export default function Prestations() {
           )}
           <div>Séances massages parents-bébés</div>
         </div>
+        {!clickPresta1 && (
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <img src="/hands.jpg" className={styles.imgHands} />
+          </div>
+        )}
         {clickPresta1 && (
           <div className={styles.massagesContainer}>
             <h2>Massage parents-bébés</h2>
