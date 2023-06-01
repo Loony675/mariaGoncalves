@@ -83,16 +83,17 @@ export default function Prestations() {
               les mouvements de massage et tisser les liens les plus précieux
               avec votre bébé ✨
             </p>
-            <h3>Tarifs:</h3>
-            <p>
-              Au cabinet:<br></br> En individuel 1h30 // 50 €<br></br> En
-              collectif 2h // 40 €<br></br>
+            <div className={styles.underContainer}>
+              <h4>Modalités</h4>
               <p>
-                Frais de déplacement à domicile autour de Ponthierry : 10€ // 20
-                km
+                Au cabinet:<br></br> En individuel 1h30 - 50€<br></br> En
+                collectif 2h - 40€<br></br>
+                <p>
+                  Frais de déplacement à domicile autour de Ponthierry (20 km maximum) : 10€
+                </p>
               </p>
-            </p>
-            <img src="setup.webp" className={styles.imgSetup} />
+              <img src="setup.webp" className={styles.imgSetup} />
+            </div>
           </div>
         )}
 
@@ -162,9 +163,9 @@ export default function Prestations() {
                 conscience.
               </p>
             </div>
-            <div>
+            <div className={styles.underContainer}>
               <h4>Moments créatifs</h4>
-              <img src='/cercleMB2.JPG' className={styles.imgCercleMB}/>
+              <img src="/cercleMB2.JPG" className={styles.imgCercleMB} />
 
               <p>Pour les bébés : berceuses, comptines, poèmes</p>
               <p>Pour les mamans: auto-massage, activités créatives d'objets</p>
@@ -180,7 +181,7 @@ export default function Prestations() {
                 Les mamans sont libres de répondre aux besoins de leur bébé à
                 tout moment.
               </p>
-              <img src='/cercleMB3.JPG' className={styles.imgCercleMB}/>
+              <img src="/cercleMB3.JPG" className={styles.imgCercleMB} />
               <p>
                 Des jouets d'éveil sont mis à disposition ainsi qu'un coin
                 change.
@@ -208,7 +209,7 @@ export default function Prestations() {
             <div>
               <h4>Modalités</h4>
               <p>L'inscription se fait pour 4 rencontres</p>
-              <p>Tarif 160 euros</p>
+              <p>Tarif 160€</p>
               <p style={{ fontStyle: "italic", fontSize: "16px" }}>
                 pour 1 rencontre, veuillez me contacter
               </p>
@@ -256,10 +257,14 @@ export default function Prestations() {
               <br></br>
               C'est un véritable moment méditatif et de retour à soi.
             </p>
-            <p>
-              La séance se pratique habillé sur table de massage.<br></br>Durée
-              du soin 1h30/60€
-            </p>
+            <div>
+              <h4>Modalités</h4>
+              <p>
+                La séance se pratique habillé sur table de massage.<br></br>
+                Durée du soin 1h30
+                <br></br>Tarif 60€
+              </p>
+            </div>
           </div>
         )}
       </div>
