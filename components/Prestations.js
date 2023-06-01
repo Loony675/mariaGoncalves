@@ -45,7 +45,7 @@ export default function Prestations() {
         </div>
         {!clickPresta1 && (
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <img src="/hands.jpg" className={styles.imgHands} />
+            <img src="/hands.jpg" className={styles.imgPrestaMini} />
           </div>
         )}
         {clickPresta1 && (
@@ -57,7 +57,7 @@ export default function Prestations() {
               toucher est fondamental pour renforcer le lien entre la maman, le
               papa ou la personne référente"
             </p>
-            <img src="/hands.jpg" className={styles.imgHands} />
+            <img src="/hands.jpg" className={styles.imgPresta} />
             <p>
               Venez apprendre à masser votre bébé dans une atmosphère
               chaleureuse et bienveillante, en respectant votre rythme et celui
@@ -106,12 +106,12 @@ export default function Prestations() {
         </div>
         {!clickPresta2 && (
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <img src="/cercleMB1.jpeg" className={styles.imgReiki} />
+            <img src="/cercleMB1.jpeg" className={styles.imgPrestaMini} />
           </div>
         )}
         {clickPresta2 && (
           <div className={styles.massagesContainer}>
-            <h3 style={{ textTransform: "italic" }}>
+            <h3 style={{ fontStyle: "italic" }}>
               "On ne naît pas mère on le devient"
             </h3>
             <p>
@@ -127,7 +127,7 @@ export default function Prestations() {
               C'est ce qu'offre un cercle mamans-bébés Pour que chaque maman et
               chaque bébé repartent apaisé.
             </p>
-            <img src="/cercleMB1.jpeg" className={styles.imgReiki} />
+            <img src="/cercleMB1.jpeg" className={styles.imgPresta} />
             <p>
               Les cercles mamans-bébés s'adressent aux mamans avec leurs bébés
               âgés de 0 à 9 mois.
@@ -184,15 +184,29 @@ export default function Prestations() {
               </p>
             </div>
             <div>
-              <h4>Modalités</h4>L'inscription se fait pour 4 rencontres Tarif
-              160 euros Pour 1 rencontre, veuillez me contacter 4 rencontres, 4
-              grands thèmes 💫 Le post-partum, la matrescence 💫 Les besoins de
-              mon bébé 💫 Lien mère-bébé 💫 La famille, reprise du travail Le
-              groupe est ouvert à 5 mamans accompagnées de leurs bébés. La durée
-              et la régularité des rencontres permet la création du lien entre
-              la maman et son bébé mais aussi entre les mamans participantes. Au
-              fil des séances un climat de confiance va naître permettant à
-              chacune de commencer à tisser son village.
+              <h4>Modalités</h4>
+              <p>L'inscription se fait pour 4 rencontres</p>
+              <p>Tarif 160 euros</p>
+              <p style={{ fontStyle: "italic", fontSize: "16px" }}>
+                Pour 1 rencontre, veuillez me contacter
+              </p>
+              <h4>4 rencontres, 4 grands thèmes</h4>
+              <p>💫 Le post-partum, la matrescence</p>
+              <p>💫 Les besoins de mon bébé</p>
+              <p>💫 Lien mère-bébé</p>
+              <p>💫 La famille, reprise du travail</p>
+              <p>
+                Le groupe est ouvert à 5 mamans accompagnées de leurs bébés.
+              </p>
+              <p>
+                La durée et la régularité des rencontres permet la création du
+                lien entre la maman et son bébé mais aussi entre les mamans
+                participantes.
+              </p>
+              <p>
+                Au fil des séances un climat de confiance va naître permettant à
+                chacune de commencer à tisser son village.
+              </p>
             </div>
           </div>
         )}
@@ -206,14 +220,14 @@ export default function Prestations() {
         </div>
         {!clickPresta3 && (
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <img src="/reiki.jpg" className={styles.imgReiki} />
+            <img src="/reiki.jpg" className={styles.imgPrestaMini} />
           </div>
         )}
 
         {clickPresta3 && (
           <div className={styles.massagesContainer}>
             <h3>Le reiki</h3>
-            <img src="/reiki.jpg" className={styles.imgReiki} />
+            <img src="/reiki.jpg" className={styles.imgPresta} />
 
             <p>
               Le reiki est une méthode de soin japonaise appartenant à

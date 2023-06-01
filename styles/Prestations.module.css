@@ -27,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:4px;
+  padding: 4px;
   font-weight: 500;
   color: black;
   text-align: left;
@@ -49,20 +49,21 @@
 .citations {
   font-style: italic;
 }
-.imgHands {
+.imgPresta {
   object-fit: cover;
   margin: 10px;
   height: 250px;
   width: 250px;
   border-radius: 50%;
 }
-.imgReiki {
+.imgPrestaMini {
   object-fit: cover;
   margin: 10px;
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
+
 .imgPortrait {
   object-fit: cover;
   margin: 10px;
