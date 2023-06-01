@@ -89,7 +89,8 @@ export default function Prestations() {
                 Au cabinet:<br></br> En individuel 1h30 - 50€<br></br> En
                 collectif 2h - 40€<br></br>
                 <p>
-                  Frais de déplacement à domicile autour de Ponthierry (20 km maximum) : 10€
+                  Frais de déplacement à domicile autour de Ponthierry (20 km
+                  maximum) : 10€
                 </p>
               </p>
               <img src="setup.webp" className={styles.imgSetup} />
@@ -167,8 +168,13 @@ export default function Prestations() {
               <h4>Moments créatifs</h4>
               <img src="/cercleMB2.JPG" className={styles.imgCercleMB} />
 
-              <p>Pour les bébés : berceuses, comptines, poèmes</p>
-              <p>Pour les mamans: auto-massage, activités créatives d'objets</p>
+              <p>
+                <b>Pour les bébés:</b> berceuses, comptines, poèmes
+              </p>
+              <p>
+                <b>Pour les mamans:</b> auto-massage, activités créatives
+                d'objets
+              </p>
               <p>
                 Le lieu d'accueil est un espace chaleureux, doux, bienveillant
                 et soutenant afin de faciliter la vie des mamans.

@@ -1,6 +1,7 @@
 .mainContainer {
   margin: 40px;
   background-color: rgba(255, 255, 255, 0.8);
+  /* background:radial-gradient(red 10px, yellow 30%, #1e90ff 150%); */
   border-top-left-radius: 400px;
   border-top-right-radius: 400px;
 }

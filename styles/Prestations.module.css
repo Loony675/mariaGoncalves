@@ -36,7 +36,7 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-.underContainer{
+.underContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +82,7 @@
   max-width: 70vw;
   border-radius: 5px;
 }
-.imgCercleMB{
+.imgCercleMB {
   object-fit: cover;
   margin: 10px;
   height: 150px;
@@ -94,4 +94,6 @@
   align-items: center;
   font-weight: 500;
   color: #086788;
+}
+.backgroundColor {
 }
