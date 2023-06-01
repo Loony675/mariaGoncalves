@@ -64,7 +64,7 @@ export default function Prestations() {
               de votre enfant.
             </p>
             <p className={styles.citations}>
-              " Le massage est un merveilleux moment de partage et d'affection
+              "Le massage est un merveilleux moment de partage et d'affection
               avec votre bébé, c'est un moment privilégié en face à face, qui
               permet au bébé de s'épanouir pleinement en étant sécurisé,
               valorisé, aimé et écouté."
@@ -164,6 +164,8 @@ export default function Prestations() {
             </div>
             <div>
               <h4>Moments créatifs</h4>
+              <img src='/cercleMB2.JPG' className={styles.imgCercleMB}/>
+
               <p>Pour les bébés : berceuses, comptines, poèmes</p>
               <p>Pour les mamans: auto-massage, activités créatives d'objets</p>
               <p>
@@ -178,18 +180,13 @@ export default function Prestations() {
                 Les mamans sont libres de répondre aux besoins de leur bébé à
                 tout moment.
               </p>
+              <img src='/cercleMB3.JPG' className={styles.imgCercleMB}/>
               <p>
                 Des jouets d'éveil sont mis à disposition ainsi qu'un coin
                 change.
               </p>
             </div>
             <div>
-              <h4>Modalités</h4>
-              <p>L'inscription se fait pour 4 rencontres</p>
-              <p>Tarif 160 euros</p>
-              <p style={{ fontStyle: "italic", fontSize: "16px" }}>
-                Pour 1 rencontre, veuillez me contacter
-              </p>
               <h4>4 rencontres, 4 grands thèmes</h4>
               <p>💫 Le post-partum, la matrescence</p>
               <p>💫 Les besoins de mon bébé</p>
@@ -206,6 +203,14 @@ export default function Prestations() {
               <p>
                 Au fil des séances un climat de confiance va naître permettant à
                 chacune de commencer à tisser son village.
+              </p>
+            </div>
+            <div>
+              <h4>Modalités</h4>
+              <p>L'inscription se fait pour 4 rencontres</p>
+              <p>Tarif 160 euros</p>
+              <p style={{ fontStyle: "italic", fontSize: "16px" }}>
+                pour 1 rencontre, veuillez me contacter
               </p>
             </div>
           </div>
@@ -228,7 +233,6 @@ export default function Prestations() {
           <div className={styles.massagesContainer}>
             <h3>Le reiki</h3>
             <img src="/reiki.jpg" className={styles.imgPresta} />
-
             <p>
               Le reiki est une méthode de soin japonaise appartenant à
               l'approche énergétique. <br></br>En japonais, Rei veut dire
