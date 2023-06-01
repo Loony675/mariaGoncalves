@@ -87,7 +87,7 @@ export default function Prestations() {
                 km
               </p>
             </p>
-            <img src='setup.webp' className={styles.imgSetup}/>
+            <img src="setup.webp" className={styles.imgSetup} />
           </div>
         )}
 
@@ -99,6 +99,98 @@ export default function Prestations() {
           )}
           <div>Cercles mamans-bébés</div>
         </div>
+        {!clickPresta2 && (
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <img src="/cercleMB1.jpeg" className={styles.imgReiki} />
+          </div>
+        )}
+        {clickPresta2 && (
+          <div className={styles.massagesContainer}>
+            <h3 style={{ textTransform: "italic" }}>
+              "On ne naît pas mère on le devient"
+            </h3>
+            <p>
+              Soutien à la parentalité pendant la période postnale, la
+              matrescence en toute bienveillance.
+            </p>
+            <p>
+              Être bichonnées, écoutées, rassurées autant de besoins pour les
+              jeunes mamans pendant cette période intense et si fragile à la
+              fois
+            </p>
+            <p>
+              C'est ce qu'offre un cercle mamans-bébés Pour que chaque maman et
+              chaque bébé repartent apaisé.
+            </p>
+            <img src="/cercleMB1.jpeg" className={styles.imgReiki} />
+            <p>
+              Les cercles mamans-bébés s'adressent aux mamans avec leurs bébés
+              âgés de 0 à 9 mois.
+            </p>
+            <p>
+              C'est une pause douceur et cocooning dans la vie des jeunes mamans
+              pour :
+            </p>
+            <div>
+              <p>
+                🌺 Prendre soin d'elles et réfléchir aux valeurs de leur famille
+              </p>
+              <p>🌺 Sortir de leur quotidien</p>
+              <p>🌺 Créer du lien avec leur bébé de façon ludique</p>
+              <p>🌺 Rencontrer et échanger avec d'autres mamans</p>
+            </div>
+            <div>
+              <h4>Déroulé d'un cercle mamans-bébés</h4>
+              <p>
+                L'ouverture du cercle commence par un instant bien-être pour se
+                poser, se détendre, se recentrer grâce à des exercices de
+                respiration, des auto-massages, de la méditation
+              </p>
+              <p>
+                Le coeur du cercle est animé par des échanges, des partages, et
+                des astuces de mamans, des transmissions et des ateliers
+                créatifs.
+              </p>
+              <p>
+                Le cercle se termine autour de petites douceurs et d'une boisson
+                chaude pour réchauffer le corps et l'esprit, dégustées en pleine
+                conscience.
+              </p>
+            </div>
+            <div>
+              <h4>Moments créatifs</h4>
+              <p>Pour les bébés : berceuses, comptines, poèmes</p>
+              <p>Pour les mamans: auto-massage, activités créatives d'objets</p>
+              <p>
+                Le lieu d'accueil est un espace chaleureux, doux, bienveillant
+                et soutenant afin de faciliter la vie des mamans.
+              </p>
+              <p>
+                Les bébés sont installés au centre du cercle sur des petits
+                matelas, face à leur maman.
+              </p>
+              <p>
+                Les mamans sont libres de répondre aux besoins de leur bébé à
+                tout moment.
+              </p>
+              <p>
+                Des jouets d'éveil sont mis à disposition ainsi qu'un coin
+                change.
+              </p>
+            </div>
+            <div>
+              <h4>Modalités</h4>L'inscription se fait pour 4 rencontres Tarif
+              160 euros Pour 1 rencontre, veuillez me contacter 4 rencontres, 4
+              grands thèmes 💫 Le post-partum, la matrescence 💫 Les besoins de
+              mon bébé 💫 Lien mère-bébé 💫 La famille, reprise du travail Le
+              groupe est ouvert à 5 mamans accompagnées de leurs bébés. La durée
+              et la régularité des rencontres permet la création du lien entre
+              la maman et son bébé mais aussi entre les mamans participantes. Au
+              fil des séances un climat de confiance va naître permettant à
+              chacune de commencer à tisser son village.
+            </div>
+          </div>
+        )}
         <div className={styles.presta} onClick={() => presta3()}>
           {clickPresta3 ? (
             <BsFillArrowUpCircleFill style={{ marginRight: "5px" }} />
@@ -107,6 +199,12 @@ export default function Prestations() {
           )}
           <div>Séances Reiki</div>
         </div>
+        {!clickPresta3 && (
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <img src="/reiki.jpg" className={styles.imgReiki} />
+          </div>
+        )}
+
         {clickPresta3 && (
           <div className={styles.massagesContainer}>
             <h3>Le reiki</h3>
