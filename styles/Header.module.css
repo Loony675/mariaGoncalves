@@ -57,7 +57,7 @@
 }
 .closeHamburger {
   position: absolute;
-  top: 5;
+  top: 5px;
   right: 5px;
 }
 .mainContainer {
