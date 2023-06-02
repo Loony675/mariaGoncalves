@@ -26,19 +26,22 @@
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.8);
 }
-.mainContainerMobile nav {
+/* .mainContainerMobile nav {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   height: 100vh;
-  width: 100%;
-  /* backdrop-filter: blur(10px); */
+  width: 40%;
+  animation-duration: 1s;
+  animation-name: openNavSlide;
+  animation-fill-mode: forwards;
   background-color: rgba(255, 255, 255, 0.8);
-}
+} */
+
 .mainContainerMobile nav a {
   margin: 10px;
   font-size: 30px;
@@ -46,19 +49,7 @@
   font-weight: 700;
 }
 
-.mainContainerMobileScroll nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  /* backdrop-filter: blur(10px); */
-  background-color: rgba(255, 255, 255, 0.8);
-}
+
 .mainContainerMobileScroll nav a {
   margin: 10px;
   font-size: 30px;
@@ -129,6 +120,49 @@
   }
   .skillsContainer {
     line-height: 18px;
+  }
+}
+.navContainerClose  {
+  display: none;
+  flex-direction: row;
+  animation-name: closeNavSlide;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-duration: 1s;
+}
+.navContainerOpen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 40%;
+  animation-duration: 1s;
+  animation-name: openNavSlide;
+  animation-fill-mode: forwards;
+  background-color: rgba(255, 255, 255, 1);
+}
+@keyframes openNavSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes closeNavSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(100%);
   }
 }
 /*

@@ -70,8 +70,8 @@ export default function Header() {
         <div className={styles.skillM}>Soutien, partages, échanges</div> */}
       </div>
       <nav
-        className={styles.navContainer}
-        style={{ visibility: modalOpen ? "visible" : "hidden" }}
+        className={!modalOpen ? styles.navContainerClose : styles.navContainerOpen}
+        // style={{ visibility: modalOpen ? "visible" : "hidden" }}
       >
         <a href="/">Accueil</a>
         <a href="#me" onClick={() => setModalOpen(false)}>
